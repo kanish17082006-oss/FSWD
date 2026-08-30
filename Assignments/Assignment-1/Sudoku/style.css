@@ -1,0 +1,64 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f2f6fa;
+    margin: 0;
+    padding: 30px;
+}
+
+.container {
+    width: 500px;
+    max-width: 95%;
+    margin: auto;
+    text-align: center;
+    background-color: white;
+    padding: 25px;
+    border-radius: 10px;
+}
+
+h1 {
+    color: #1976d2;
+    margin-bottom: 20px;
+}
+
+.game-info {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+    padding: 10px;
+    background-color: #e3f2fd;
+    border-radius: 5px;
+}
+
+.game-info p {
+    margin: 5px;
+}
+
+.sudoku {
+    border-collapse: collapse;
+    margin: auto;
+}
+
+.sudoku td {
+    width: 50px;
+    height: 50px;
+    border: 1px solid #777;
+    text-align: center;
+    font-size: 22px;
+    font-weight: bold;
+}
+
+.sudoku tr:nth-child(3n) td {
+    border-bottom: 3px solid #222;
+}
+
+.sudoku td:nth-child(3n) {
+    border-right: 3px solid #222;
+}
+
+.sudoku tr:first-child td {
+    border-top: 3px solid #222;
+}
+
+.sudoku td:first-child {
+    border-left: 3px solid #222;
+}
