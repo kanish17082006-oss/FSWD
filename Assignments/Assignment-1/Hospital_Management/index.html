@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Medicare Hospital</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <header id="home">
+        <img src="hospital-logo.png" alt="Medicare Hospital Logo">
+        <h1>Medicare Hospital</h1>
+        <p>Quality Healthcare You Can Trust</p>
+    </header>
+
+    <nav>
+        <a href="#home">Home</a>
+        <a href="#departments">Departments</a>
+        <a href="#doctors">Doctors</a>
+        <a href="#emergency">Emergency</a>
+        <a href="#appointment">Appointment</a>
+        <a href="#contact">Contact</a>
+    </nav>
+
+    <section id="departments">
+        <h2>Our Departments</h2>
+
+        <ul>
+            <li>Cardiology</li>
+            <li>Neurology</li>
+            <li>Orthopedics</li>
+            <li>Pediatrics</li>
+            <li>Dermatology</li>
+            <li>General Medicine</li>
+        </ul>
+    </section>
+
+    <section id="doctors">
+        <h2>Our Doctors</h2>
+
+        <table border="1">
+            <tr>
+                <th>Doctor Name</th>
+                <th>Department</th>
+                <th>Experience</th>
+                <th>Availability</th>
+            </tr>
+
+            <tr>
+                <td>Dr. Kanish</td>
+                <td>Cardiology</td>
+                <td>12 Years</td>
+                <td>Mon - Fri</td>
+            </tr>
+
+            <tr>
+                <td>Dr. Karthik</td>
+                <td>Neurology</td>
+                <td>10 Years</td>
+                <td>Mon - Sat</td>
+            </tr>
+
+            <tr>
+                <td>Dr. Harshith</td>
+                <td>Pediatrics</td>
+                <td>8 Years</td>
+                <td>Tue - Sat</td>
+            </tr>
+
+            <tr>
+                <td>Dr. Kruthik</td>
+                <td>Orthopedics</td>
+                <td>9 Years</td>
+                <td>Mon - Fri</td>
+            </tr>
+        </table>
+    </section>
+
+    <section id="emergency">
+        <h2>Emergency Contact</h2>
+
+        <p><strong>Emergency Helpline:</strong> 108</p>
+        <p><strong>Hospital Emergency:</strong> +91 98765 43210</p>
+        <p><strong>Ambulance Service:</strong> +91 91234 56789</p>
+        <p><strong>Available:</strong> 24 Hours, 7 Days a Week</p>
+    </section>
+
+    <section id="appointment">
+        <h2>Book an Appointment</h2>
+
+        <form>
+
+            <label for="name">Full Name:</label>
+            <input type="text" id="name" name="name" required>
+
+            <br><br>
+
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+
+            <br><br>
+
+            <label for="phone">Phone Number:</label>
+            <input type="tel" id="phone" name="phone" required>
+
+            <br><br>
+
+            <label for="age">Age:</label>
+            <input type="number" id="age" name="age" min="1" max="120">
+
+            <br><br>
+
+            <label for="department">Select Department:</label>
+            <select id="department" name="department">
+                <option value="">-- Select Department --</option>
+                <option value="cardiology">Cardiology</option>
+                <option value="neurology">Neurology</option>
+                <option value="orthopedics">Orthopedics</option>
+                <option value="pediatrics">Pediatrics</option>
+                <option value="dermatology">Dermatology</option>
+                <option value="general-medicine">General Medicine</option>
+            </select>
+
+            <br><br>
+
+            <label for="date">Appointment Date:</label>
+            <input type="date" id="date" name="date" required>
+
+            <br><br>
+
+            <label for="time">Appointment Time:</label>
+            <input type="time" id="time" name="time" required>
+
+            <br><br>
+
+            <label>Gender:</label>
+
+            <input type="radio" id="male" name="gender" value="male">
+            <label for="male">Male</label>
+
+            <input type="radio" id="female" name="gender" value="female">
+            <label for="female">Female</label>
+
+            <input type="radio" id="other" name="gender" value="other">
+            <label for="other">Other</label>
+
+            <br><br>
+
+            <label for="message">Message:</label>
+            <br>
+
+            <textarea id="message" name="message" rows="4" cols="40"
+                placeholder="Describe your concern"></textarea>
+
+            <br><br>
+
+            <button type="submit">Book Appointment</button>
+            <button type="reset">Clear</button>
+
+        </form>
+    </section>
+
+    <footer id="contact">
+        <h2>Contact Us</h2>
+
+        <p>
+            <strong>Address:</strong>
+            Medicare Hospital, Kukatpally, Hyderabad, Telangana
+        </p>
+
+        <p>
+            <strong>Phone:</strong> +91 98765 43210
+        </p>
+
+        <p>
+            <strong>Email:</strong> info@medicarehospital.com
+        </p>
+
+        <p>
+            <strong>Follow Us:</strong>
+            <a href="#">Facebook</a> |
+            <a href="#">Instagram</a> |
+            <a href="#">Twitter</a>
+        </p>
+
+        <p>© 2026 Medicare Hospital. All Rights Reserved.</p>
+    </footer>
+
+</body>
+</html>
